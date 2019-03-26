@@ -1,0 +1,35 @@
+body {
+	background: url("12.jpg") no-repeat;
+	background-size: cover;
+
+}
+
+.keys {
+	margin: auto;
+/*	float: left;*/
+    /*display: inline;*/
+    padding-top: 250px;
+    padding-left: 125px;
+}
+
+.key {
+	border: 3px solid black;
+	margin: 1rem;
+	font-size: 1.5rem;
+	padding: 1rem 0.5rem;
+	transition: all 0.07s;
+	width: 50px;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	text-shadow: 0 0 5px black;
+	display: inline-block;
+}
+
+
+/*Only to add class on click*/
+.playing {
+	transform: scale(1.1);
+	border-color: #ffc600;
+	box-shadow: 0 0 10px #ffc600;
+}
